@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace GestionInventaire.Views
 {
     /// <summary>
-    /// Logique d'interaction pour HomeWindow.xaml
+    /// Logique d'interaction pour HomeView.xaml
     /// </summary>
-    public partial class HomeWindow : Page
+    public partial class HomeView : Page
     {
-        public HomeWindow()
+        public HomeView()
         {
             InitializeComponent();
         }

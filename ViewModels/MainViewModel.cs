@@ -54,7 +54,7 @@ namespace GestionInventaire.ViewModels
 
         }
 
-        private void ExecuteShowHomeViewCommand (object obj)
+        private void ExecuteShowHomeViewCommand (object? obj)
         {
             CurrentChildView = new HomeViewModel();
             Caption = "Accueil";
