@@ -18,7 +18,7 @@ namespace GestionInventaire.Views
     /// <summary>
     /// Logique d'interaction pour HomeView.xaml
     /// </summary>
-    public partial class HomeView : Page
+    public partial class HomeView : Window
     {
         public HomeView()
         {

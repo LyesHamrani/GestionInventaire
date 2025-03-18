@@ -5,7 +5,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestionInventaire"
-        xmlns:vm="clr-namespace:GestionInventaire.ViewModels"
+        xmlns:viewModel="clr-namespace:GestionInventaire.ViewModels"
+        xmlns:views="clr-namespace:GestionInventaire.Views"
         mc:Ignorable="d"
         Title="MainWindow" Height="700" Width="1300" ResizeMode="CanResize" MinHeight="700" MinWidth="1300"
         WindowStyle="None"
@@ -13,15 +14,15 @@
         AllowsTransparency="True">
 
     <Window.DataContext>
-        <vm:MainViewModel/>
+        <viewModel:MainViewModel/>
     </Window.DataContext>
 
     <Window.Resources>
-        <DataTemplate DataType="{x:Type vm:HomeViewModel}">
-            <local:Views.HomeView/>
+        <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+            <views:HomeView/>
         </DataTemplate>
     </Window.Resources>
-    
+
     <Border CornerRadius="10" BorderThickness="2">
 
         <Border.BorderBrush>
